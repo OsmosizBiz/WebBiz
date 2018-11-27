@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Liam Osmani's Virtual Machine</title>
+		<link rel="stylesheet" type="text/css" href="VirtualStyle.css">
+		<script src = "VirtualMachineContent.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/x-icon" href="fav.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+
+	<body onload="setup()">
+	
+		
+		<div id = "header">
+			<span style="font-size:25px;cursor:pointer; float:left; margin-left: 15px" onclick="openNav()">&#9776;</span>
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="#" onclick="openAbout()">About</a>
+					<a href="#">Services</a>
+					<a href="#"><i class="fa fa-fw fa-user"></i>Clients</a>
+					<a href="#"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+				</div>
+			</div>
+		</div>
+		
+	
+		<div id="cmdContent" class = "visible">
+				
+			<div id="commandPrompt" onkeypress="key(event)">
+			
+			
+			</div>
+			
+		</div>
+		<style type="text/css">
+			::-webkit-scrollbar {width: 8px; height: 4px;   background: currentColour; }
+			::-webkit-scrollbar-thumb { background-color: currentColor; -webkit-border-radius: 1ex; }
+		</style>
+		
+		<div id ="aboutPage">
+			<h1> hellooooo </h1>
+		</div>
+		
+		<div id="footer">
+			<p>Made by Liam Osmani</p>
+			
+			<a href="https://www.w3schools.com">W3Schools Link</a>
+		</div>
+	
+	</body>
+
+</html>
